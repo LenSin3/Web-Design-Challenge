@@ -37,7 +37,53 @@
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
+
+    <div>
+        <h1>Summary: Latitude vs. X</h1>
+    </div>
+    <hr>
+    <main class="container">
+        <section id="description">
+          <section id="figure">
+            <img id="maxtemp" src="./Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp">
+          </section>
+          <p>This project involves analysis of weather data of about 500 random cities. The cities were generated via Citipy, a python library that takes geo-coordinate point and returns the closest city to that point. The weather data was then extracted via API (OpenWeatherMap) interactions and stored as csv file.</p>
+          <p>The csv file was later read into pandas and then analyzed using Matplotlib to visualize the following relationships:</p>
+          <ul>
+              <li>Temperature vs. Latitude</li>
+              <li>Humidity vs. Latitude</li>
+              <li>Cloudiness vs. Latitude</li>
+              <li>Wind Speed vs. Latitude</li>
+          </ul>
+          <p>The visualizations accompanied by detailed descriptions of observed trends as well as the source data are provided in this site.</p>
+        </section>
+    </main>
+
+    <div>
+        <h2>Visualizations</h2>
+    </div>
+    <hr>
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <img id="maxtemp" src="./Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp">
+          </div>
+          <div class="col">
+            <img id="humidity" src="./Resources/assets/images/Fig2.png" alt="Latitude vs Humidity">
+          </div>
+          <div class="col">
+            <img id="cloudiness" src="./Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness">
+          </div>
+          <div class="col">
+            <img id="windspeed" src="./Resources/assets/images/Fig4.png" alt="Wind Speed vs Latitude">
+          </div>
+        </div>
+      </div>
+
+
+
 
 
     
