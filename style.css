@@ -2,3 +2,10 @@
     margin-left: 10%;
     font-size: 40px;
 }
+
+.navbar-brand {
+    text
+    border: rgb(5, 92, 95);
+    border-width: 1em;
+    background-color: rgb(5, 92, 95) !important;
+}
